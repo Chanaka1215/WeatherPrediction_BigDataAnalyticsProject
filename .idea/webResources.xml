@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebResourcesPaths">
+    <contentEntries>
+      <entry url="jar://C:/spark/python/lib/py4j-0.10.4-src.zip!/py4j">
+        <entryData>
+          <resourceRoots>
+            <path value="file://C:/spark/python" />
+          </resourceRoots>
+        </entryData>
+      </entry>
+    </contentEntries>
+  </component>
+</project>

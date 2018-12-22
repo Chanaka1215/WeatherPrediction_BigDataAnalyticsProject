@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 sc = SparkContext(master="local", appName="spark_test")
 sqlContext = SQLContext(sc)
 
-path_to_file = "file:///C:/Users/Chanaka/OneDrive/python/WeatherPrediction_BigDataAnalyticsProject/weatherHistory.csv"
-path_to_output_file = "file:///C:/Users/Chanaka/OneDrive/python/WeatherPrediction_BigDataAnalyticsProject/weatherSummary.csv"
+path_to_file = "file:///D:/weatherHistory.csv"
+path_to_output_file = "file:///D:/weatherSummary.csv"
 
 real_csv_file_structure = sc.textFile(path_to_file)
 header = real_csv_file_structure.first()
@@ -105,10 +105,5 @@ analyzed_df.show()
 #     .option("header", "true") \
 #     .mode("overwrite")\
 #     .csv(path_to_output_file)
-
-
-
-
-
 
 sc.stop()
