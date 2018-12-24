@@ -1,6 +1,7 @@
 # WeatherPrediction - BigData Analytics Project
 This is the mini project related with the course module IN4410 that uses the Apache Spark.
-###Contributors
+
+### Contributors
 * Fernando S.D.N.C
 * Karunarathne L.A.H
 * Hasantha E.A.C
